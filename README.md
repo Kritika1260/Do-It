@@ -1,4 +1,4 @@
- TaskFlow – Modern Task Management App
+ Task Manager – Modern Task Management App
 A responsive and efficient task management web application built with React, TypeScript, and Tailwind CSS, powered by Vite and shadcn-ui. Designed for productivity, real-time updates, and seamless user experience.
 
 🚀 Tech Stack
