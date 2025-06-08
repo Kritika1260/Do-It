@@ -1,53 +1,55 @@
-## Project info
+ TaskFlow – Modern Task Management App
+A responsive and efficient task management web application built with React, TypeScript, and Tailwind CSS, powered by Vite and shadcn-ui. Designed for productivity, real-time updates, and seamless user experience.
 
-**URL**: https://lovable.dev/projects/ff4dcf7c-9e43-4a2d-9a92-66d4f562009d
+🚀 Tech Stack
+Frontend: React 18 + TypeScript
 
-## How can I edit this code?
+Styling: Tailwind CSS + shadcn-ui
 
-There are several ways of editing your application.
+Icons: Lucide React
 
-**Use your preferred IDE**
+Tooling: Vite (lightning-fast dev/build)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🧑‍💻 How to Run Locally
+Pre-requisite: Make sure Node.js and npm are installed. Use nvm for Node version management.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔧 Setup Instructions
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install all dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
+Open your browser at http://localhost:5173 to see the live preview.
 
-**Edit a file directly in GitHub**
+📂 Folder Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+├── components/           # UI components
+├── public/               # Static assets
+├── src/                  # Main application logic
+│   └── ...tsx files
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts        # Vite build configuration
+├── tsconfig.*.json       # TypeScript configurations
+├── package.json          # Project metadata and scripts
+└── README.md             # Project info
+💡 Features
+✅ Responsive design – Works across all devices
 
-**Use GitHub Codespaces**
+🔄 Live preview – Instant feedback with Vite
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+⚙️ Custom components – Built with shadcn-ui
 
-## What technologies are used for this project?
+🧠 Type-safe – Full TypeScript support
 
-This project is built with:
+💨 Fast builds – Vite-powered dev environment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📄 License
+This project is for educational and development purposes. Feel free to modify and enhance as per your needs.
+
